@@ -1,0 +1,41 @@
+{
+  "name": "@local/eva-cockpit",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "EVA cockpit palette, typography and HUD chrome for the DeepSeek Harness Web UI.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.png"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.png",
+    "assets/*",
+    "README.md",
+    "THIRD_PARTY_LICENSES.md",
+    "fonts/*"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "external": ["react-dom"],
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

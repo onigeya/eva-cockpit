@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="EVA cockpit">
+  <rect width="64" height="64" rx="12" fill="#120D1C"/>
+  <path d="M32 6 56 20v24L32 58 8 44V20Z" fill="#241435" stroke="#C6FF3D" stroke-width="2"/>
+  <path d="M32 16 47 24v16L32 48 17 40V24Z" fill="none" stroke="#7A4FA8" stroke-width="1.5"/>
+  <path d="M19 37l7-12 6 9 5-9 8 12" fill="none" stroke="#FF8A1E" stroke-width="2.4" stroke-linecap="square"/>
+  <rect x="13" y="11" width="13" height="3" fill="#FF8A1E"/>
+  <circle cx="49" cy="14" r="2.6" fill="#C6FF3D"/>
+</svg>
